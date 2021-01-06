@@ -1,14 +1,46 @@
 body {
-    
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
    
 }
+/* start nav-bar*/
+.nav-bar{
+    height: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.menu{
+    text-align:right;
+    margin-right: 95px;
+}
+.menu ul{
+    list-style: none;
+    display: inline-block;
+    
+}
+.menu ul li {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+    
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 600;
+    
+    
+}
+
+/* end nav-bar*/
 /* start header-area*/
 .header{
     height: 500px;
 }
+
 h1{
     color: #363958;
     font-size: 50px;
@@ -42,7 +74,7 @@ p{
 /* End header-area*/
 /* start about-area*/
 .about{
-    height: 700px;
+    height: 600px;
     margin-bottom: 150px;
 }
 .about h2 {
@@ -55,6 +87,7 @@ p{
     height: 500px;
     background-image: url("images/background/bg2.jpg");
     
+   
 }
 .projects h2 {
     color: #363958;
@@ -64,8 +97,9 @@ p{
 .card{
     width: 25%;
     float: left;
-    margin-left:3%;
+    margin-left:2%;
     padding-left:2%;
+    
 }
 .card img {
     width: 80%;
@@ -81,5 +115,28 @@ p{
     
 }
 /* End projects-area*/
-/* start projects-area*/
-/* start projects-area*/
+/* start connect-area*/
+.connect{
+    height: 300px;
+    
+}
+.contact h3{
+    font-size: 18px;
+    font-weight:500;
+    color:#706F78 ;
+    text-align:center ;
+    margin-bottom: 3px;
+}
+.contact a {
+    text-decoration:none;
+    font-size: 30px;
+    color: #363958;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+}
+.icon img{
+    width: 3%;
+    
+    
+}
