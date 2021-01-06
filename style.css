@@ -23,16 +23,12 @@ body {
 .menu ul li {
     float: left;
     margin-left: 20px;
-    font-size: 15px;
-    
-    
+    font-size: 15px;  
 }
 .menu ul li a {
     text-decoration: none;
     color: #3C3C3C;
-    font-weight: 600;
-    
-    
+    font-weight: 600;  
 }
 
 /* end nav-bar*/
@@ -86,8 +82,6 @@ p{
 .projects{
     height: 500px;
     background-image: url("images/background/bg2.jpg");
-    
-   
 }
 .projects h2 {
     color: #363958;
@@ -115,17 +109,38 @@ p{
     
 }
 /* End projects-area*/
-.chat{
-    height: 200px;
-    background-image: url("images/background/bg.png");
+/* start chat-area*/
+.work-inquiry{
+    height: 150px;
+    background-image:url("images/background/bg.png");
     background-repeat: no-repeat;
-    background-position: center center;
-    
-    background-size: 40%;
+    background-size: 45%;
+    background-position: center;
+   
+   
 }
-.chat P {
-    
+#work  {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-left: +440px;
+   text-align: center;
+  display: inline-block;
+ 
 }
+#chat {
+    margin-left: +200px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: #FA7262;
+    padding: 10px 10px;
+}
+/* end chat-area*/
 /* start connect-area*/
 .connect{
     height: 300px;
@@ -145,9 +160,11 @@ p{
     font-weight: 700;
     text-align: center;
     display: block;
+    margin-bottom: 5px;
 }
 .icon img{
     width: 3%;
-    
-    
+   
+   margin-left: +140px;;
+   
 }
